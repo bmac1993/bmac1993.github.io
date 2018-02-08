@@ -12,61 +12,84 @@
 	</script>
 
     <meta charset="utf-8" />
-    <title></title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <title>Brandon McAlees</title>
+	<!--<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		.thumbnail-custom {
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 0px;
+		}
+		.thumbnail-content {
+			padding: 15px 15px 0px 15px;
+		}
+		.thumbnail-title {
+			font-weight: bold;
+			font-size: 20px;
+		}
+	</style>
 </head>
 <body>
 	<div class="jumbotron">
-		<h1 class="display-3">Brandon's Portfolio.</h1>
-		<p class="lead">This is a simple page to display some of the work I have done, enjoy!</p>
+		<div style="margin-left:30px;">
+			<h1>Welcome!</h1>
+			<p>This is a simple page to display some of the work I have done, enjoy!</p>
+		</div>
 	</div>
-	<div class="mx-4">
-		<div class="card-columns">
-			<div class="card">
+	<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="thumbnail thumbnail-custom">
 				<a href="http://collegewiz.azurewebsites.net" target="_blank" style="text-decoration:inherit;color:inherit;">
-					<img class="card-img-top img-fluid" src="collegewiz.png" alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">College Wiz</h4>
-						<p class="card-text">My current side project, and work in progress over the past 8 months or so. College Wiz uses free, public data provided by IPEDS to filter colleges across the US.</p>
-						<p class="card-text">My partner and I felt that a lot of college search sites were old and outdated. We wanted to spice things up and make the user experience a little more intuitive. We decided to build this public facing page so we could get more familiar with the IPEDS dataset. The real project is just getting started ;)</p>
+					<img style="max-width:100%;" src="collegewiz.png" alt="Card image cap">
+					<div class="thumbnail-content">
+						<label class="thumbnail-title">College Wiz</label>
+						<p>My current side project, and work in progress over the past 8 months or so. College Wiz uses free, public data provided by IPEDS to filter colleges across the US.</p>
+						<p>My partner and I felt that a lot of college search sites were old and outdated. We wanted to spice things up and make the user experience a little more intuitive. We decided to build this public facing page so we could get more familiar with the IPEDS dataset. The real project is just getting started ;)</p>
 					</div>
 				</a>
 			</div>
-			<div class="card">
-				<img class="card-img-top img-fluid" src="pikamaps.png" alt="Card image cap">
-				<div class="card-block">
-					<h4 class="card-title">PikaMaps</h4>
-					<p class="card-text">Remember PokemonGo? If not, you must have been on a remote island during the summer of 2016. You probably could've caught some pretty nice Pokemon there too.</p>
-					<p class="card-text">During the PokemonGo frenzy, a couple co-workers and I wanted to cheat the system a bit. We wanted to crack the spawning algorithm and figure out where the hell we could catch a dragonite. To do so, we did a 24 hour hack-a-thon, creating this PokemonGo sightings page. A simple right click allowed you to add a sighting to the map, and a click on an existing Pokemon allowed you to verify the sighting. We even had a 'live' mode, only showing Pokemon sighted in the last 15 minutes. At its peak, we were getting over 1000 visits per day, with a total of over 2000 Pokemon locations entered.</p>
-					<p class="card-text">Unfortunately for our map, we soon learned that Pokemon spawns were fairly random, enough to render our map useless. However, in our short time, we did get to solve some pretty cool problems: Spam protection, so people can't draw a giant dick out of Abras in the Atlantic ocean (yes, that happened), clustering, and creating the sleekest interface of all the PokemonGo maps out there!</p>
-					<p class="card-text">For the time being, this site is not being hosted anywhere. I may work on getting it back online, but if you'd like to see it, it'll have to be in person.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="thumbnail thumbnail-custom">
+				<img class="card-img-top" style="max-width:100%;" src="pikamaps.png" alt="Card image cap">
+				<div class="thumbnail-content">
+					<label class="thumbnail-title">PikaMaps</label>
+					<p>Remember PokemonGo? If not, you must have been on a remote island during the summer of 2016. You probably could've caught some pretty nice Pokemon there too.</p>
+					<p>During the PokemonGo frenzy, a couple co-workers and I wanted to cheat the system a bit. We wanted to crack the spawning algorithm and figure out where the hell we could catch a dragonite. To do so, we did a 24 hour hack-a-thon, creating this PokemonGo sightings page. A simple right click allowed you to add a sighting to the map, and a click on an existing Pokemon allowed you to verify the sighting. We even had a 'live' mode, only showing Pokemon sighted in the last 15 minutes. At its peak, we were getting over 1000 visits per day, with a total of over 2000 Pokemon locations entered.</p>
+					<p>Unfortunately for our map, we soon learned that Pokemon spawns were fairly random, enough to render our map useless. However, in our short time, we did get to solve some pretty cool problems: Spam protection, so people can't draw a giant dick out of Abras in the Atlantic ocean (yes, that happened), clustering, and creating the sleekest interface of all the PokemonGo maps out there!</p>
+					<p>For the time being, this site is not being hosted anywhere. I may work on getting it back online, but if you'd like to see it, it'll have to be in person.</p>
 				</div>
 			</div>
-			<div class="card">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="thumbnail thumbnail-custom">
 				<a href="http://bmac1993.github.io/Cubed3D/" target="_blank" style="text-decoration:inherit;color:inherit;">
-					<img class="card-img-top img-fluid" src="cub3d.png" alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">Cub3d</h4>
-						<p class="card-text">NSFW. Seriously. If you're on the clock, you may want to wait until you get home to play this one.</p>
-						<p class="card-text">This 3D cube racer game is one of the most addicting indie games I've ever played. This was done as a 3 week project in my senior year at RIT. I got a lot of positive feedback and decided to work on it a bit after the project ended - adding swipe controls for mobile, adjusting the scoring, and making it more playable. Ultimately it wasn't as fun on the mobile browser and there's no way to port the 3D code to a mobile platform, so here it lays, consuming hours of my life everytime I click on the link.</p>
-						<p class="card-text">
+					<img style="max-width:100%;" src="cub3d.png" alt="Card image cap">
+					<div class="thumbnail-content">
+						<label class="thumbnail-title">Cub3d</label>
+						<p>NSFW. Seriously. If you're on the clock, you may want to wait until you get home to play this one.</p>
+						<p>This 3D cube racer game is one of the most addicting indie games I've ever played. This was done as a 3 week project in my senior year at RIT. I got a lot of positive feedback and decided to work on it a bit after the project ended - adding swipe controls for mobile, adjusting the scoring, and making it more playable. Ultimately it wasn't as fun on the mobile browser and there's no way to port the 3D code to a mobile platform, so here it lays, consuming hours of my life everytime I click on the link.</p>
+						<p>
 							<hr />
 							<span style="font-weight:bold;">Highscore</span> - 8,267<hr />
 							<span style="font-weight:bold;">Coins</span> - 167<hr />
 							<span style="font-weight:bold;">Time</span> - 198<hr />
 						</p>
-						<p class="card-text"><span style="color:red;">Pro tip:</span> use the arrows &amp; WSAD at the same time to jump two spaces, and play with sound!!</p>
+						<p><span style="color:red;">Pro tip:</span> use the arrows &amp; WSAD at the same time to jump two spaces, and play with sound!!</p>
 					</div>
 				</a>
 			</div>
-			<div class="card">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="thumbnail thumbnail-custom">
 				<a href="https://bmac1993.github.io/DodgeIt/" target="_blank" style="text-decoration:inherit;color:inherit;">
-					<img class="card-img-top img-fluid" src="dodgeit.png" alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">Dodge It</h4>
-						<p class="card-text">Didn't get real creative with the name here. I guess I spent all that time listening to the 11 minute Lotus song that plays in the background. Want to know what happens when the song ends? Me too.</p>
-						<p class="card-text">Another partner project in my senior year at RIT. Fairly simple at a glance but there's a bit more intricacy here than you'd think: Onboarding, orb animations, hit detection on the orbs, your player, the multipliers, and the obstacles, finding a song that lasts 11 minutes. You get the point.</p>
-						<p class="card-text">
+					<img style="max-width:100%;" src="dodgeit.png" alt="Card image cap">
+					<div class="thumbnail-content">
+						<label class="thumbnail-title">Dodge It</label>
+						<p>Didn't get real creative with the name here. I guess I spent all that time listening to the 11 minute Lotus song that plays in the background. Want to know what happens when the song ends? Me too.</p>
+						<p>Another partner project in my senior year at RIT. Fairly simple at a glance but there's a bit more intricacy here than you'd think: Onboarding, orb animations, hit detection on the orbs, your player, the multipliers, and the obstacles, finding a song that lasts 11 minutes. You get the point.</p>
+						<p>
 							<hr />
 							<span style="font-weight:bold;">Highscore</span> - 32,259<hr />
 							<span style="font-weight:bold;">Level</span> - 8
@@ -76,9 +99,27 @@
 			</div>
 		</div>
 	</div>
+	<div id="ouiModal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">You can take the red pill or the blue pill.</h4>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
-	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<!--<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="tether.min.js"></script>
-	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>-->
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="ouibounce.js"></script>
+	<!--<script type="text/javascript">
+		ouibounce($('#ouiModal')[0], {
+			callback: function () { $("#ouiModal").modal("show"); }
+		});
+	</script>-->
 </body>
 </html>
